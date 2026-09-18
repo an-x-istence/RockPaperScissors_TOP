@@ -1,3 +1,6 @@
+let computerScore = 0;
+let userScore = 0;
+
 function getComputerChoice() {
     let randomNumber = Math.floor(Math.random() * 3) + 1;
     let computerThrow;
@@ -14,8 +17,6 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let humanThrow = prompt("Will you throw rock, paper, or scissors? (entries all in lowercase)")
-    // return humanThrow
-    console.log(humanThrow)
+    return humanThrow
 }
 
-getHumanChoice()
