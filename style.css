@@ -1,0 +1,45 @@
+.header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.throws {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 800px;
+    flex-grow: 1;
+
+}
+
+.human-throw, .computer-throw {
+    flex-grow: .2;
+    text-align: center;
+}
+
+.human-choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+
+.scores {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.human-throw-pic, .computer-throw-pic {
+    font-size: 100px;
+}
